@@ -6,8 +6,9 @@
 
 Les technologies Blockchain résout 2 problèmes :
 <br>
-*Immutabilité : Les données ne peuvent être altérées
-*Processus distribué : Il n’y a pas de point de défaillance unique dans le réseau. Tous les nœuds du réseau travaillant ensemble sont basés sur un méchanisme de concensus afin de se prémunir des acteurs malveillants.
+
+- Immutabilité : Les données ne peuvent être altérées
+- Processus distribué : Il n’y a pas de point de défaillance unique dans le réseau. Tous les nœuds du réseau travaillant ensemble sont basés sur un méchanisme de concensus afin de se prémunir des acteurs malveillants.
 
 <br>
 <h3 align="center">Immutability</h3>
@@ -24,15 +25,15 @@ Avec ces 2 numéros, le hachage cryptographique du précédent block et le hacha
 </p>
 
 <p align="center">
-  <br>
 Comment un tel processus peut être implémenté avec du code :
+<br>
   <img src="/img/imgblock2.jpg">
 </p>
 
 <p align="center">
-  <br>
 Synoptique d’un en-tête de block :
   <img src="/img/imgblock3.png">
+    <br>
 </p>
 
 Ce processus garantit l’intégrité du block. Par exemple, pour changer une transaction en amont, il devra altérer le hash de toutes les transactions dans les block. Il devra donc reminer le block à falsifier mais il faudra aussi altérer les hash de tous les blocks précédents et suivants stockés dans les en-têtes. Un acteur malveillant devra donc miner tous les blocks qui suivent et qui doivent être basés sur le block falsifié.
@@ -43,7 +44,6 @@ L’autre protection avec laquelle on prévient ce genre de modification repose 
 <br>
 
 <p align="center">
-  <br>
   <img src="/img/imgblock4.png">
 </p>
 
@@ -72,6 +72,7 @@ Le nombre haché à trouver doit être inférieur au hash visé. La hash ciblé 
 <p align="center">
   <br>
   <img src="/img/imgblock5.jpg">
+  <br>
 </p>
 
 Le premier mineur à résoudre le puzzle obtient une récompense pour son travail.
