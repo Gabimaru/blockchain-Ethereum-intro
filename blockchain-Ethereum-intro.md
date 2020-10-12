@@ -1,6 +1,4 @@
-<p align="center">
-<br>
-<h3>Introduction à la Blockchain Etherum</h3>
+<h1 align="center">Introduction à la Blockchain Etherum</h3>
 <br>
 
 </p>
